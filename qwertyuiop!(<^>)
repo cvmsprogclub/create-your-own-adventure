@@ -1,0 +1,20 @@
+print("By running this program you have agreed to take my TEST OF DOOM!!!")
+print("If you get one wrong, you FAIL")
+print("")
+begin = input("Do you accept?(n/y)")
+if begin == "y":
+    print(" ")
+    print("Begin")
+    print(" ")
+    q1 = input("How many potatoes does it take to eat a chicken?(Must be a Number)")
+    if q1 == '0':
+        print(" ")
+        q2 = input("Would you pick up a cup full of green and purple worms? (n/y)")
+        if q2 == "y":
+            print(" ")
+            q3 = input("")
+    else:
+        print("WHY!!!")
+
+
+
